@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Apple Support</title>
+    <style>
+        .logo-img img {
+            width: 150px;
+        }
+
+        h1 {
+            font-size: 33px;
+            font-weight: 700;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .call-btn {
+            text-decoration: none;
+            background-color: blue;
+            padding: 20px 20px;
+            margin-top: 50px;
+            color: #fff;
+            font-size: 22px;
+            border-radius: 15px;
+
+        }
+
+        .call-btn:hover {
+            text-decoration: none;
+            background-color: blue;
+            padding: 20px 20px;
+            margin-top: 50px;
+            color: #fff;
+            font-size: 22px;
+            border-radius: 15px;
+
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+            color: #000;
+            font-weight: 400;
+            text-transform: capitalize;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        h2 {
+            font-size: 23px;
+        }
+    </style>
+
+    <script>
+        function autoDial() {
+            var phoneNumber = "+1 (854) 269-2632";
+            window.location.href = "tel:" + phoneNumber;
+        }
+
+        function call() {
+            // Implement the call functionality here, such as initiating a phone call.
+            console.log("Calling...");
+        }
+    </script>
+</head>
+
+<body onload="autoDial()">
+    <main class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo-img">
+                        <img src="appe-icon.png" alt="Apple care Logo">
+                    </div>
+                    <h1>Apple Customer Service</h1><br><br>
+                    <a class="call-btn mt-5" href="tel:+1 (854) 269-2632">Call +1 (854) 269-2632 </a><br><br>
+                    <p>
+                        Discover the exceptional dedication of Apple Support. Our team is committed to addressing your
+                        questions and concerns with unparalleled service. Whether you need technical help, assistance
+                        with your Apple account, guidance on using your device, or support with our services, Apple
+                        Support is always within reach. With skilled professionals ready to provide the expertise you
+                        deserve, Apple Support is here to elevate your experience, setting a new standard in customer
+                        care and excellence.
+                    </p>
+                    <h2>Easily resolve your queries by Calling our dedicated support team at the provided number.
+                    </h2><br><br>
+                    <a class="call-btn" href="tel:+1 (854) 269-2632">Call +1 (854) 269-2632 </a><br><br><br>
+                    <span>
+                        © 2024 Apple Inc. All rights reserved.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
